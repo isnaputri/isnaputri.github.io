@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-09T07:47:29.555Z</updated>
+  <updated>2019-01-31T07:46:00.850Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tutorial Membuat Github</title>
+    <link href="http://yoursite.com/2019/01/31/Tutorial-Membuat-Github/"/>
+    <id>http://yoursite.com/2019/01/31/Tutorial-Membuat-Github/</id>
+    <published>2019-01-31T05:16:34.000Z</published>
+    <updated>2019-01-31T07:46:00.850Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-Membuat-Akun-dan-Repository-GitHub"><a href="#1-Membuat-Akun-dan-Repository-GitHub" class="headerlink" title="1. Membuat Akun dan Repository GitHub"></a>1. Membuat Akun dan Repository GitHub</h2><p> Buat akun GitHub Melalui website <a href="https://github.com" target="_blank" rel="noopener">https://github.com</a></p><p><img src="/gambar/1.PNG" alt=""></p><p>Setelah mendaftar buatlah repository</p><p>a. Clik tombol  “new”  pada lingkaran merah tersebut.</p><p><img src="/gambar/2.PNG" alt=""></p><p>b. Clik “Creat respository”</p><p><img src="/gambar/3.PNG" alt=""></p><p>c. Kemudian isi beberapa nama atau filed terserah kalian,dan juga isi beberapa filed<br>   di dalam kolom “Description”.Karena hal ini harus diajukan</p><p><img src="/gambar/4.PNG" alt=""></p><p>d. Untuk mengecek  hasil dari repositorinya ,kalian bisa buka nama akun yang<br>   telah kalian buat.Jika sudah benar maka akan sama seperti pada gambar dibawah ini</p><p><img src="/gambar/5.PNG" alt=""></p><h2 id="2-Install-Node-JS-amp-Hexo"><a href="#2-Install-Node-JS-amp-Hexo" class="headerlink" title="2. Install Node JS &amp; Hexo"></a>2. Install Node JS &amp; Hexo</h2><p>   a. Downlod Node JS.</p><p>  <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></p><p>   b. Untuk Install Hexo,masukkan command<br><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$npm</span> install hexo-cli -g</span><br></pre></td></tr></table></figure></p><p>  c.Jika sudah ,kalian bisa check hexo kalian dengan command<br><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></p><p>  d. Maka akan muncul seperti gambar dibawah ini<br>   <img src="/gambar/7.PNG" alt=""><br>   Setelah itu..  </p><h2 id="3-Membuat-Github-Pages"><a href="#3-Membuat-Github-Pages" class="headerlink" title="3. Membuat Github Pages"></a>3. Membuat Github Pages</h2><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init username.github.io</span><br><span class="line">$ <span class="built_in">cd</span> username.github.io</span><br></pre></td></tr></table></figure><h2 id="4-Memilih-Tema"><a href="#4-Memilih-Tema" class="headerlink" title="4.Memilih Tema"></a>4.Memilih Tema</h2><p>a. Pilihlah tema yang anda inginkan melalui link dibawah ini</p><p><a href="https://hexo.io/themes/index.html" target="_blank" rel="noopener">https://hexo.io/themes/index.html</a></p><p>b. Jika kalian sudah memilih temanya,kemudian install<br><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/probberechts/hexo-theme-cactus.git themes/cactus</span><br></pre></td></tr></table></figure></p><p>c. Setelah Install kemudian aktivasi</p><p> buka_convig,yml di atom ganti value theme yang kalian sudah Install.</p> <figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment"># theme: landscape</span></span><br><span class="line">theme: cactus</span><br></pre></td></tr></table></figure><h2 id="5-Membuat-Post-Baru"><a href="#5-Membuat-Post-Baru" class="headerlink" title="5. Membuat Post Baru"></a>5. Membuat Post Baru</h2><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post <span class="string">"How to make github pages"</span></span><br></pre></td></tr></table></figure><h2 id="6-Deploy"><a href="#6-Deploy" class="headerlink" title="6. Deploy"></a>6. Deploy</h2><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-Membuat-Akun-dan-Repository-GitHub&quot;&gt;&lt;a href=&quot;#1-Membuat-Akun-dan-Repository-GitHub&quot; class=&quot;headerlink&quot; title=&quot;1. Membuat Akun dan 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
